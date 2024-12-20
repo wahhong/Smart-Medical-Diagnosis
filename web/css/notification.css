@@ -1,0 +1,34 @@
+.toastUnsuccess {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 1000;
+    width: 250px;
+}
+
+.toastUnsuccess.show {
+    opacity: 1;
+}
+.toastSuccess {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 1000;
+    width: 250px;
+}
+
+.toastSuccess.show {
+    opacity: 1;
+}

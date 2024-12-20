@@ -1,0 +1,45 @@
+#paginationControls {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+#paginationControls .custom-btn {
+    border: 1px solid #ccc !important;
+    color: #343a40 !important;
+    background-color: #f8f9fa !important;
+    padding: 5px 15px !important;
+    border-radius: 20px !important;
+    transition: all 0.3s ease !important;
+    outline: none !important;
+}
+
+#paginationControls .custom-btn:hover {
+    background-color: #007bff !important; /* Primary color for hover */
+    color: white !important; /* Text color on hover */
+    border-color: #007bff !important;
+    border-radius: 20px !important;
+}
+
+#paginationControls .active-btn {
+    background-color: #343a40 !important; /* Dark color for active */
+    color: white !important;
+    border-color: #343a40 !important;
+    font-weight: bold !important;
+}
+
+#prevPage.custom-prev, #nextPage.custom-next {
+    border: 1px solid #ccc !important;
+    color: #343a40 !important;
+    background-color: #f8f9fa !important;
+    padding: 5px 15px !important;
+    border-radius: 20px !important;
+    transition: all 0.3s ease !important;
+}
+
+#prevPage.custom-prev:hover, #nextPage.custom-next:hover {
+    background-color: #007bff !important;
+    color: white !important;
+    border-color: #007bff !important;
+    border-radius: 20px !important;
+}

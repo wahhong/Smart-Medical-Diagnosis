@@ -1,0 +1,32 @@
+.services-category {
+    display: flex;
+    align-items: center !important;
+    margin: 14px 0px !important;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.services-category:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services-img img {
+    margin: 0px 14px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+}
+
+.category-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.services-btn {
+    text-decoration: none;
+    color: inherit;
+}

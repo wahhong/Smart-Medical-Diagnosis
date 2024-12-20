@@ -1,0 +1,38 @@
+.payment-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    width: 297.59px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.payment-option.active {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px #6366f1;
+}
+
+.payment-option i {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.payment-option input[type="radio"] {
+    display: none;
+}
+.col-md-6 {
+    padding: 0px !important;
+}
+
+.form-group input[type="text"] {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}

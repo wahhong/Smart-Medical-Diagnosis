@@ -1,0 +1,81 @@
+.datetime-border{
+    border: 2px solid #ececec;
+    border-radius: 14px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    margin-left: 205px;
+    margin-right: 205px;
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.services-category {
+    align-items: center !important;
+    margin: 14px 0px !important;
+}
+
+.services-btn {
+    font-weight: 600;
+    color: #1A76D1 !important;
+    font-size: 16px;
+    padding: 0px;
+    width: auto;
+    height: 120px;
+    background: #fff;
+    border: 1px solid #1A76D1;
+    border-radius: 8px;
+    display: block;
+}
+
+.services-btn:hover{
+    background: #ececec;
+}
+
+.services-img {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.services-img img {
+    margin: 0px 14px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.fa-chevron-right {
+    font-size: 15px !important;
+}
+
+@media (max-width: 1200px) {
+    .datetime-border {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+    }
+    .cancel-btn {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .datetime-border {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+    }
+    .cancel-btn {
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .datetime-border {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+    }
+    .cancel-btn {
+        width: auto;
+    }
+}
